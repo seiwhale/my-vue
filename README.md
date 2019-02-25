@@ -47,7 +47,7 @@
 
 ``` bash
 # 克隆项目
-git clone https://git.dev.tencent.com/adminyun/ruihao_h5.git
+git clone https://github.com/LishiJ/my-vue.git
 # 安装依赖
 npm i
 # 启动项目
