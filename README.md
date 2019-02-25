@@ -4,9 +4,9 @@
 
 ### 项目截图
 
-![vue-imitate](https://note.youdao.com/favicon.ico)
+![vue-imitate](https://github.com/LishiJ/my-vue/blob/master/assets/vue-imitate.gif?raw=true)
 
-![my-vue](https://note.youdao.com/favicon.ico)
+![my-vue](https://github.com/LishiJ/my-vue/blob/master/assets/my-vue.gif?raw=true)
 
 ### 项目结构
 
