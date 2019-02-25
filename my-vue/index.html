@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Vue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .form-item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    {{obj.value}}
+    <p v-html="html"></p>
+    <div class="form-item">
+      <input type="text" v-model="form" placeholder="input something">
+    </div>
+    <div class="form-item">
+      <input type="text" v-model="form" placeholder="input something">
+    </div>
+    <button @click="changeValue">改变值</button>
+    <p>v-model：{{form}}</p>
+    <img v-bind:src="src" alt="">
+    <img :src="src" alt="">
+  </div>
+  <script src="./index.js"></script>
+  <script>
+    new Vue({
+      el: '#root',
+      data: {
+        form: 'v-model值',
+        html: '<strong>我是粗体v-html</strong>',
+        obj: {
+          value: "I'm object's value"
+        },
+        src: 'src'
+      },
+      methods:{
+        changeValue() {
+          this.form = Math.random().toString(36).substr(2);
+        }
+      }
+    })
+  </script>
+</body>
+</html>
