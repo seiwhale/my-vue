@@ -47,7 +47,7 @@
 
 ``` bash
 # 克隆项目
-git clone https://github.com/LishiJ/my-vue.git
+git clone https://github.com/seiwhale/my-vue.git
 # 安装依赖
 npm i
 # 启动项目
