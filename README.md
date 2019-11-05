@@ -4,9 +4,9 @@
 
 ### 项目截图
 
-![vue-imitate](https://github.com/LishiJ/my-vue/blob/master/assets/vue-imitate.gif?raw=true)
+![vue-imitate](https://cdn.jsdelivr.net/gh/seiwhale/my-vue/assets/vue-imitate.gif)
 
-![my-vue](https://github.com/LishiJ/my-vue/blob/master/assets/my-vue.gif?raw=true)
+![my-vue](https://cdn.jsdelivr.net/gh/seiwhale/my-vue/assets/my-vue.gif)
 
 ### 项目结构
 
