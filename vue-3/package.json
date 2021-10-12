@@ -1,0 +1,21 @@
+{
+  "name": "mvvm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seiwhale",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "bable-loader": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
