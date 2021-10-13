@@ -1,4 +1,5 @@
-import Watcher from "./watcher"
+import Watcher from "../core/observer/watcher"
+import { parse } from './parser'
 
 export default class Compiler {
   constructor(ctx) {
@@ -6,9 +7,10 @@ export default class Compiler {
     this.$el = ctx.$el
 
     if (this.$el) {
+      let ast = parse(this.$el.outerHTML)
+      console.log('ast:', ast)
       // 转化为文档片段
       this.$fragment = this.nodeToFragment(this.$el)
-      console.log(this.$fragment)
       // 模板编译
       this.compile(this.$fragment)
       // 追加到页面
